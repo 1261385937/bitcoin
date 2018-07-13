@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\basic-config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecdsa.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecdsa_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\eckey.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\eckey_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult_const.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult_const_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult_gen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult_gen_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ecmult_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_5x52.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_5x52_asm_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_5x52_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_5x52_int128_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_10x26.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_10x26_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\field_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\group.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\group_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hash_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\num.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\num_gmp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\num_gmp_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\num_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_4x64.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_4x64_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_8x32.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_8x32_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_low.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scalar_low_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\testrand.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\testrand_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\secp256k1.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

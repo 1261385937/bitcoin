@@ -32,7 +32,9 @@
 #define STORAGE_LEVELDB_PORT_PORT_WIN_H_
 
 #ifdef _MSC_VER
-#define snprintf _snprintf
+//#define snprintf _snprintf
+#include <BaseTsd.h>
+typedef SSIZE_T ssize_t;
 #define close _close
 #define fread_unlocked _fread_nolock
 #endif

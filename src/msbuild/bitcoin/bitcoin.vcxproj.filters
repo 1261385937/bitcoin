@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="communal">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{57c72917-b4aa-4ec5-8128-8520ae391f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives">
+      <UniqueIdentifier>{f2395209-f096-4773-a7db-954b9c48f02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{64c61af7-ef6e-4599-a094-1bdc1ef2643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy">
+      <UniqueIdentifier>{7ef29159-01d9-4549-bead-5e8394509520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="consensus">
+      <UniqueIdentifier>{dfe9fcdc-1119-4baf-8ffe-4d4125c8baff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="index">
+      <UniqueIdentifier>{26f6d0a0-2ef6-4f76-b34e-e9e67f31503e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat">
+      <UniqueIdentifier>{c602b675-ca38-44ba-9302-d3c21ce25bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{b7486991-c5c2-4a3b-a1d2-94864d4f1d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{f53cb3b8-fe0d-4d14-8e0e-496d39b9f41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\allocators">
+      <UniqueIdentifier>{8bff5e87-cc7d-40e6-a6e7-99683bb19976}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\chainparamsbase.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clientversion.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utiltime.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\blockchain.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\client.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\mining.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\misc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\rawtransaction.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\server.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utilstrencodings.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uint256.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitives\block.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitives\transaction.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\bitcoinconsensus.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\interpreter.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\ismine.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\script.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\script_error.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\sigcache.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\sign.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\script\standard.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pubkey.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\addrdb.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\addrman.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arith_uint256.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base58.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bech32.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\blockencodings.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bloom.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\chain.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\chainparams.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\checkpoints.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\coins.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\compressor.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core_read.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core_write.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dbwrapper.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fs.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hash.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\httprpc.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\httpserver.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\init.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\key.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\key_io.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\keystore.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\merkleblock.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\miner.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\net.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\net_processing.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\netaddress.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\netbase.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\noui.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pow.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocol.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\random.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rest.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scheduler.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sync.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadinterrupt.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\timedata.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\torcontrol.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\txdb.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\txmempool.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ui_interface.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utilmoneystr.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\validation.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\validationinterface.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\versionbits.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\warnings.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\policy\feerate.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\policy\fees.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\policy\policy.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\policy\rbf.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\consensus\merkle.cpp">
+      <Filter>consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\consensus\tx_verify.cpp">
+      <Filter>consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\index\base.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\index\txindex.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\net_rpc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\protocol_rpc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rpc\util_rpc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\compat\glibc_sanity.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\compat\glibcxx_sanity.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\compat\strnlen.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\aes.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\chacha20.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\hmac_sha256.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\hmac_sha512.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\ripemd160.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha1.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha256.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha256_avx2.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha256_sse4.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha256_sse41.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha512.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\support\cleanse.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\support\lockedpool.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\logging.cpp">
+      <Filter>communal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\chainparamsbase.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clientversion.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\util.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utiltime.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\blockchain.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\client.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\mining.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\rawtransaction.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\register.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\server.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utilstrencodings.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uint256.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitives\block.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitives\transaction.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\bitcoinconsensus.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\interpreter.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\ismine.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\script.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\script_error.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\sigcache.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\sign.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\script\standard.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pubkey.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\addrdb.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\addrman.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\amount.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arith_uint256.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base58.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bech32.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\blockencodings.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bloom.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\chain.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\chainparams.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\chainparamsseeds.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\checkpoints.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\checkqueue.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\coins.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compat.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compressor.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core_io.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core_memusage.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cuckoocache.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dbwrapper.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fs.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hash.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\httprpc.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\httpserver.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\indirectmap.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\init.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\key.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\key_io.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\keystore.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\limitedmap.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memusage.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\merkleblock.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\miner.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\net.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\net_processing.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\netaddress.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\netbase.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\netmessagemaker.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\noui.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pow.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\prevector.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocol.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\random.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\reverse_iterator.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\reverselock.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\scheduler.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\serialize.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\span.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\streams.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sync.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadinterrupt.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadsafety.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timedata.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tinyformat.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\torcontrol.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\txdb.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\txmempool.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ui_interface.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\undo.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utilmoneystr.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\validation.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\validationinterface.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\version.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\versionbits.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\walletinitinterface.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\warnings.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\policy\feerate.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\policy\fees.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\policy\policy.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\policy\rbf.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\consensus\consensus.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\consensus\merkle.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\consensus\params.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\consensus\tx_verify.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\consensus\validation.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\index\base.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\index\txindex.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\protocol.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rpc\util.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compat\byteswap.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compat\endian.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compat\sanity.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\aes.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\chacha20.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\common.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\hmac_sha256.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\hmac_sha512.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\ripemd160.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\sha1.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\sha256.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\sha512.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\support\cleanse.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\support\events.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\support\lockedpool.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\support\allocators\secure.h">
+      <Filter>support\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\support\allocators\zeroafterfree.h">
+      <Filter>support\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\logging.h">
+      <Filter>communal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
